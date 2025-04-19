@@ -1,0 +1,16 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+parameters:
+    bootstrapFiles:
+        - helpers/helpers.php
+
+    level: 6
+
+    paths:
+        - app
+        - config
+        - database
+        - helpers
+        - public
+        - routes

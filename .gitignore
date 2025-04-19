@@ -1,0 +1,9 @@
+.env
+*.db
+*.sqlite
+*.sqlite3
+composer.lock
+node_modules
+storage/cache/*
+storage/logs/*
+vendor

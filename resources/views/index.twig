@@ -1,0 +1,8 @@
+{% extends 'layouts/app.twig' %}
+
+{% block content %}
+        <div class="text-center p-8">
+            <h2 class="text-xl">{{ content_title | default('Hello, World!') }}</h2>
+            <p>{{ content | default('This is a simple Slim Framework application.') }}</p>
+        </div>
+{% endblock %}

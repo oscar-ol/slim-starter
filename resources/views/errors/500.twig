@@ -1,0 +1,11 @@
+{% extends 'layouts/app.twig' %}
+
+{% block content %}
+<main class="p-4">
+    <h2 class="text-xl">Internal Server Error</h2>
+    <p>{{ message | default('An unexpected error occurred.') }}</p>
+    {% if trace %}
+        <pre class="bg-gray-200 p-4 rounded">{{ trace }}</pre>
+    {% endif %}
+</main>
+{% endblock %}

@@ -1,0 +1,13 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "ordered_imports": {"imports_order": ["class", "function", "const"]},
+        "single_line_empty_body": false,
+        "not_operator_with_successor_space": false,
+        "no_unused_imports": false,
+        "new_with_parentheses": true,
+        "ordered_traits": false,
+        "cast_spaces": {"space": "none"},
+        "concat_space": {"spacing": "one"}
+    }
+}
